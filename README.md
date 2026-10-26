@@ -1,4 +1,4 @@
-# Yoga Teacher
+# yogi_hero
 
 Desktop yoga coach for the Nebius × NVIDIA Physical AI hackathon.
 
@@ -14,7 +14,7 @@ Two conda envs stay separate (`mdm` for the app + MDM, `tkhmr` for pose).
 
 ```bash
 conda activate mdm
-cd /path/to/yoga_tr
+cd /path/to/yogi_hero
 # put the Nebius token in feedback_agent/api.yaml (one line, never commit)
 python app/main.py
 # optional: python app/main.py --webcam 0
