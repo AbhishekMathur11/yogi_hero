@@ -1,0 +1,6 @@
+{
+  "set": "studio",
+  "goal": 1,
+  "pool": ["cobra"],
+  "sequence": ["cobra"]
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Surya · Yoga coach</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <header>
+    <div>
+      <p class="eyebrow">Physical AI · live session</p>
+      <h1>Surya</h1>
+    </div>
+    <div class="meta">
+      <span id="camera-tag">camera…</span>
+      <span id="phase-tag">demo</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="panel">
+      <div class="panel-head">
+        <h2>You</h2>
+        <p>RealSense RGB</p>
+      </div>
+      <div class="stage">
+        <img id="live" alt="Live camera" src="/stream/live" />
+        <p class="hint">TokenHMR mesh overlay plugs in here later.</p>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>Guide</h2>
+        <p id="mdm-prompt">MDM reference</p>
+      </div>
+      <div class="stage">
+        <video id="mdm" autoplay loop muted playsinline controls></video>
+        <p class="hint">Saved MDM sample. Live generation is not in this loop.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="asana">
+      <p class="eyebrow">Current asana</p>
+      <h2 id="asana-name">—</h2>
+    </div>
+    <ol id="sequence"></ol>
+    <div class="score">
+      <p class="eyebrow">Hold score</p>
+      <p id="score-value">—</p>
+    </div>
+  </footer>
+  <script src="/static/app.js"></script>
+</body>
+</html>

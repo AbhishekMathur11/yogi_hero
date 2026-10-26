@@ -1,0 +1,22 @@
+{
+  "sets": {
+    "studio": {
+      "title": "Yoga Teacher",
+      "goal": 1,
+      "sequence": ["cobra"]
+    }
+  },
+  "asanas": {
+    "cobra": {
+      "sanskrit": "Bhujangasana",
+      "english": "Cobra pose",
+      "in_train": true,
+      "plausible": true,
+      "difficulty": 2,
+      "family": "prone",
+      "focus": ["spine", "shoulders"],
+      "mdm_prompt": "a person lies face down and lifts the chest into a yoga pose",
+      "cue": "Bhujangasana: lie prone, legs long, tops of the feet on the floor. Palms under the shoulders. Lift only the chest and head. Hips and thighs stay down. Elbows bent, close to the ribs. This is cobra, not upward-facing dog (thighs stay on the floor) and not a push-up."
+    }
+  }
+}
