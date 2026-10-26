@@ -37,3 +37,8 @@ No app rewrite. The guidance agent picks from that pool.
 - `3d_pose_estimation/TokenHMR/` — live pose worker  
 
 Do not commit `feedback_agent/api.yaml` or model `.pt` files.
+
+Weights stay on the machine that trained them:
+
+- MDM yoga checkpoint: `motion-diffusion-model/save/surya/model000770007.pt`
+- TokenHMR: under `3d_pose_estimation/TokenHMR/datasets/` (not in this repo)

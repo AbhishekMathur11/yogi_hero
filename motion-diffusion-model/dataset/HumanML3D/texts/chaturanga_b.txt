@@ -1,0 +1,1 @@
+a person holds a low plank yoga pose with elbows bent close to the floor#a/DET person/NOUN hold/VERB a/DET low/ADJ plank/NOUN yoga/NOUN pose/NOUN with/ADP elbow/NOUN bent/ADJ close/ADJ to/ADP the/DET floor/NOUN#0.0#0.0

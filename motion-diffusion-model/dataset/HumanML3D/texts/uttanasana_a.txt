@@ -1,0 +1,1 @@
+a person stands and bends forward in a yoga pose#a/DET person/NOUN stand/VERB and/OTHER bend/VERB forward/ADV in/ADP a/DET yoga/NOUN pose/NOUN#0.0#0.0

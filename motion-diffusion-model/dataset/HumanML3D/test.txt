@@ -1,0 +1,16 @@
+cobra_a
+cobra_b
+cobra_c
+downdog_a
+downdog_b
+chaturanga_a
+chaturanga_b
+plank_a
+lunge_a
+lunge_b
+lunge_c
+lunge_d
+uttanasana_a
+uttanasana_b
+cobra_d
+downdog_c

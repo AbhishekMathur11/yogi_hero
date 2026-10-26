@@ -1,0 +1,36 @@
+# secrets — never push the Nebius token
+feedback_agent/api.yaml
+**/.env
+**/*.pem
+
+# live camera ipc
+app/.live/
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+
+# model weights (too big for GitHub; keep local)
+*.pt
+*.ckpt
+*.pkl
+motion-diffusion-model/save/
+motion-diffusion-model/save/**
+
+# mocap dumps and third-party clones not needed to run the app
+3d_pose_estimation/TokenHMR/datasets/
+extras/GENMO/
+extras/kimodo/
+extras/data_river/
+extras/motionxpp/
+
+# caches
+motion-diffusion-model/dataset/t2m_*.npy
+.ipynb_checkpoints/
+*.zip
+
+# nested clone metadata (do not vendor other repos' .git)
+.git.upstream/
+**/.git.upstream/

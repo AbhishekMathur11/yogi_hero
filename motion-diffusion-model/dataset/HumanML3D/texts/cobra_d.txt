@@ -1,0 +1,1 @@
+a person lies face down and lifts the chest into a yoga pose#a/DET person/NOUN lie/VERB face/NOUN down/ADV and/OTHER lift/VERB the/DET chest/NOUN into/ADP a/DET yoga/NOUN pose/NOUN#0.0#0.0

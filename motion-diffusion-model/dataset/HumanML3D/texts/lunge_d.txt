@@ -1,0 +1,1 @@
+a person holds a low lunge yoga pose with one knee bent forward#a/DET person/NOUN hold/VERB a/DET low/ADJ lunge/NOUN yoga/NOUN pose/NOUN with/ADP one/NUM knee/NOUN bent/ADJ forward/ADV#0.0#0.0
